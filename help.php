@@ -6,7 +6,7 @@ session_unset();
 
 <script>
     document.getElementById('help_page').classList.add('active');
-    document.getElementById('help_page_mob').classList.add('active');
+    document.getElementById('helppage_mobile').classList.add('active');
 </script>
 
 <div class="padding-top-bottom">
