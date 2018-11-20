@@ -19,6 +19,32 @@ button {
     margin: 0 auto;
 }
 
+.my-btn {
+    background: #880e4fb7;
+    color: white;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    padding: 15px;
+    border-radius: 10px;
+    z-index: 99;
+    border: none;
+    cursor: pointer;
+}
+
+.my-btn:hover {
+    background-color: #880e4f;
+}
+
+input[type=submit] {
+    background-color: #630b3a;
+    color: white;
+    border: none;
+    padding: 20px 36px;
+    margin: 8px 6px;
+    cursor: pointer;
+}
+
 nav {
     padding: 0px;
     position: fixed;
@@ -46,7 +72,7 @@ form {
     margin-top: 0px;
 }
 
-.padding-top-bottom {
+.padding-all {
     padding-top: 50px !important;
     padding-bottom: 50px !important;
 }
@@ -59,36 +85,10 @@ form {
     visibility: hidden;
 }
 
-.my-btn {
-    background: #880e4fb7;
-    color: white;
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    padding: 15px;
-    border-radius: 10px;
-    z-index: 99;
-    border: none;
-    cursor: pointer;
-}
-
-.my-btn:hover {
-    background-color: #880e4f;
-}
-
 .center-elements {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-input[type=submit] {
-    background-color: #630b3a;
-    color: white;
-    border: none;
-    padding: 20px 36px;
-    margin: 8px 6px;
-    cursor: pointer;
 }
 
 @media (max-width: 768px) {
